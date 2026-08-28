@@ -1,11 +1,10 @@
 # AquaVanta Pulse 750 Synthetic Sales Dataset
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?logo=python&logoColor=white)
 ![Data](https://img.shields.io/badge/Data-Synthetic-35A7A0)
-![Code License](https://img.shields.io/badge/Code-MIT-green)
-![Data License](https://img.shields.io/badge/Data-CC%20BY%204.0-orange)
+![License](https://img.shields.io/badge/License-CC0-green)
 
-A reproducible synthetic dataset for studying omnichannel sales, demand, pricing, marketing, inventory, fulfilment, returns, and customer feedback for one fictional product.
+A synthetic dataset for studying omnichannel sales, demand, pricing, marketing, inventory, fulfilment, returns, and customer feedback for one fictional product.
 
 > **Synthetic-data notice:** AquaVanta Pulse 750 is a fictional smart water bottle. Every transaction, event, operational record, and business relationship in this project is simulated. The dataset does not represent an actual company or observed consumer behaviour.
 
@@ -83,7 +82,7 @@ Running [data_generator.ipynb](data_generator.ipynb) creates the following packa
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/aquavanta-pulse-synthetic-sales-dataset.git
+git clone https://github.com/<ClusterClassifier>/aquavanta-pulse-synthetic-sales-dataset.git
 cd aquavanta-pulse-synthetic-sales-dataset
 
 python -m venv .venv
@@ -114,7 +113,6 @@ Run all notebook cells in order. The generated package will appear in `aquavanta
 .
 ├── README.md
 ├── LICENSE
-├── CITATION.cff
 ├── CONTRIBUTING.md
 ├── requirements.txt
 ├── data_generator.ipynb
@@ -165,28 +163,11 @@ Additional figures show normalized temperature effects, promotion-versus-return 
 
 ## Kaggle
 
-The complete CSV package will be available here after publication:
+The complete dataset is hosted on:
 
 `[Add Kaggle dataset URL]`
 
-When publishing a Kaggle notebook or derived dataset, link back to this repository so users can inspect the generation assumptions.
 
-## Licence
+## License
 
-- Generator notebook and repository code: **MIT License**
-- Generated dataset files: **Creative Commons Attribution 4.0 International (CC BY 4.0)**
-
-See [LICENSE](LICENSE) for the code licence. The data licence should also be declared on the Kaggle dataset page.
-
-## Citation
-
-If this dataset or generator supports your work, cite the repository using [CITATION.cff](CITATION.cff). Until the first tagged release is published, use:
-
-```text
-Manu Parashar. AquaVanta Pulse 750 Synthetic Omnichannel Sales Dataset.
-Version 1.0.0, 2026.
-```
-
-## Contributing
-
-Contributions are welcome when they preserve reproducibility and document new assumptions. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes.
+- This project is dedicated to the public domain under the [CC0 1.0 Universal](LICENSE) license. You can copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission.
