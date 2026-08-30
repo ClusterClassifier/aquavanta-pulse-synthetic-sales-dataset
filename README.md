@@ -113,7 +113,6 @@ Run all notebook cells in order. The generated package will appear in `aquavanta
 .
 ├── README.md
 ├── LICENSE
-├── CONTRIBUTING.md
 ├── requirements.txt
 ├── data_generator.ipynb
 ├── data/
@@ -121,7 +120,6 @@ Run all notebook cells in order. The generated package will appear in `aquavanta
 ├── docs/
 │   ├── methodology.md
 │   ├── data_dictionary.md
-│   └── kaggle_upload_guide.md
 └── figures/
 ```
 
